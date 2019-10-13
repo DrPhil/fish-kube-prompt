@@ -7,11 +7,7 @@
 ## Install
 
 ```fish
-mkdir -p ~/.config/fish/functions/
-cd ~/.config/fish/
-git clone https://github.com/aluxian/fish-kube-prompt
-ln -s ../fish-kube-prompt/__kube_prompt.fish functions/
-ln -s ../fish-kube-prompt/kube_ps.fish functions/
+fisher add DrPhil/fish-kube-prompt
 ```
 
 Then create or edit `~/.config/fish/functions/fish_prompt.fish` to include
@@ -50,6 +46,8 @@ kube_ps off
 you'd like to customize, please add an env var and send a PR.
 
 ## Credits
+
+Forked from https://github.com/aluxian/fish-kube-prompt
 
 Inspired from the awesome work of:
 
